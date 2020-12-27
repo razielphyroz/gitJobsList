@@ -33,9 +33,9 @@ export default function Job({ job }) {
           </Button>
         </Card.Text>
         <Collapse in={open}>
-        <div>
-          <ReactMarkdown source={job.description}/>
-        </div>
+          <div>
+            <ReactMarkdown source={job.description}/>
+          </div>
         </Collapse>
      
       </Card.Body>
